@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args){
 
-        boolean leapYearValue = LeapYear.isLeapYear(-1600);
-        System.out.println(leapYearValue);
+        boolean equalSum = EqualSumChecker.hasEqualSum(1, -1, 0);
+        System.out.println(equalSum);
     }
 
 }
