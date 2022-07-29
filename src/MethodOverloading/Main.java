@@ -13,6 +13,9 @@ public class Main {
         //System.out.println(finalScore_Main);
         //double returnValue = OverloadingChallenge.calcFeetAndInchesToCentimeters(5, 13);
         //System.out.println(returnValue);
-        OverloadingChallenge.calcFeetAndInchesToCentimeters(12);
+        //OverloadingChallenge.calcFeetAndInchesToCentimeters(12);
+        String finalString = SecondsAndMinutesChallenge.getDurationString(1000, 45 );
+        System.out.println(finalString);
+        //SecondsAndMinutesChallenge.getDurationString(100);
     }
 }
